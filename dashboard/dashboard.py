@@ -103,7 +103,7 @@ with st.sidebar:
   # Menambahkan logo perusahaan pada dashboard
   # <a href="https://www.freepik.com/free-vector/gradient-mobile-store-logo-design_31818468.htm#fromView=keyword&page=1&position=0&uuid=b0f09087-f828-4157-9e21-b8933e9f4665">Image by freepik</a>
 
-  st.image("../")
+  st.image("https://github.com/andifirman/Brazillian-E-Commerce-Dataset-Analysis/raw/main/assets/logo-by-freepik.png", width=100)
 
   # Mengambil start_date dan end_date dari date_input
   start_date, end_date = st.date_input(
