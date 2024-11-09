@@ -78,7 +78,7 @@ def create_order_status(df):
 # -------------------------------------------------------------------------------- #
 
 # Melakukan import dataset yang dibutuhkan untuk melakukan visualisasi data pada dashboard
-all_df = pd.read_csv('all_data.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/andifirman/Brazillian-E-Commerce-Dataset-Analysis/main/dashboard/all_data.csv')
 
 datetime_columns = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
 
